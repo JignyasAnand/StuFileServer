@@ -1,0 +1,129 @@
+
+html {
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.urlinp, .ccard{
+
+    background: black;
+
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+
+    text-align: center;
+
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    padding: 20px;
+}
+
+.ccard{
+    top: 40%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.ccard table{
+    width: 100%;
+    height: 100px;
+    font-size: 22px;
+      margin-left: auto;
+  margin-right: auto;
+}
+
+input{
+    width: 90%;
+    border-radius: 5px;
+    border: hidden;
+    height: 30px;
+}
+
+label{
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.20);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    padding: 20px;
+
+
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+button{
+    margin-top: 20px;
+    border: hidden;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-color:beige;
+}
+
+
+a{
+    border: hidden;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-color:beige;
+}
+
+
+#downb{
+    /*width: 100%;*/
+    /*background-color: black;*/
+}
+
+
+      .tableFixHead {
+        overflow: auto; /* make the table scrollable if height is more than 200 px  */
+        height: 100%; /* gives an initial height of 200px to the table */
+      }
+      .tableFixHead thead th {
+        position: sticky; /* make the table heads sticky */
+        top: 0px; /* table head will be placed from the top of the table and sticks to it */
+      }
+      table {
+        border-collapse: collapse; /* make the table borders collapse to each other */
+        width: 100%;
+      }
+      th,
+      td {
+        padding: 8px 16px;
+        /*border: 1px solid #ccc;*/
+      }
+      td{
+          padding: 10px;
+          background-color: aliceblue;
+      }
+      th {
+        background: #eee;
+      }

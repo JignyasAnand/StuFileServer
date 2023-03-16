@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hey!!!Title</h1>
+<table style="border: 1px solid black">
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+    </tr>
+    {% for obj in lst %}
+        <tr>
+        <td>{{ obj.0 }}</td>
+        <td>{{ obj.1 }}</td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

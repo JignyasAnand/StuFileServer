@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="ccard">
+
+    <div class="tableFixHead">
+        <table>
+
+      <colgroup>
+        <col span="1" style="width: 70%;">
+        <col span="1" style="width: 30%;">
+      </colgroup>
+
+        <thead>
+        <tr>
+            <th>Files</th>
+            <th>Download</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            {% for part in objs %}
+                <tr>
+                    <td>{{ part.1 }}</td>
+                    <td><a href="{{ part.2 }}" target="_blank" id="downb{{ part.0 }}" onclick="document.getElementById('downb{{ part.0 }}').innerText='Opened/ Downloaded'" style="text-decoration: none;color: black">View/ Download</a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+    </div>
+    </div>
+
+{% endblock %}
